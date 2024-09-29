@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+</head>
+
+<body>
+
+  <nav class="navbar">
+    <a href="#" class="moi">Yanis </br>resume</a>
+    <div class="nav-links">
+      <ul>
+        <div class="hublot">
+          <li class="window" id="accueil-bg"><a href="#aboutme">About Me</a></li>
+        </div>
+        <div class="hublot">
+          <li class="window" id="profil-bg"><a href="#profil">Profil</a></li>
+        </div>
+        <div class="hublot">
+          <li class="window" id="competence-bg"><a href="#skills">Skills</a></li>
+        </div>
+        <div class="hublot">
+          <li class="window" id="Portfolio-bg"><a href="#portfolio">Portfolio</a></li>
+        </div>
+        <div class="hublot">
+          <li class="window" id="Contact-bg"><a href="#contact">Contact</a></li>
+        </div>
+      </ul>
+    </div>
+  </nav>
+
+
+
+  <div class="Aboutme" id="aboutme">
+    <div class="titre">About Me :</div>
+    <div class="content">
+      <img src="image/paris2.jpg" class="paris" alt="Image de Paris">
+      <div class="Aboutme-text">
+
+        Hello! <br><br>
+        My name is Yanis, and I am passionate about technology and programming. I began my journey into the
+        world
+        of computing in 2021, enrolling in a BTS SIO at Lycée Turgot. During this time, I had the opportunity to
+        learn the fundamentals of programming. <br><br>
+        Currently, I am pursuing a pre-MSc at Epitech, where I am expanding my knowledge and skills further. I am eager
+        to explore new technologies and frameworks, and I thrive on challenges that push my limits.<br><br>
+
+        Thank you for visiting my portfolio, and I look forward to sharing my work with you!
+      </div>
+    </div>
+  </div>
+
+  <div class="transition" id="profil">
+    <img src="image/timesquare.avif" class="timesquare">
+    <div class="mask2"></div>
+    <div class="profil">
+      <div class="titre1">Profil:</div>
+      <div class="profil-content">
+        <div class="profil-text">
+          <h3>Looking for:</h3>
+          <p>I am currently seeking for an internship in the field of IT,
+            <br> where I can apply my programming skills<br>and learn more about software development.
+          </p>
+        </div>
+        <div class="profil-text">
+          <h3>I am doing:</h3>
+          <p>Currently, I am pursuing my pre-MSc studies at Epitech <br>
+            where I am learning the fundamentals of development and web technologies.<br>
+            I am working on various projects to enhance my technical skills.
+          </p>
+        </div>
+        <div class="profil-text">
+          <h3>What I want:</h3>
+          <p>My goal is to continuing to improve my IT skills<br>
+            specializing in Big data .</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="skills" id="skills">
+    <img src="" class="" alt="">
+    <div class="titre">Skills</div>
+    <div class="skills-text">
+      Mastering the tools of today is the key to shaping the innovations of tomorrow.<br>
+      My journey is a constant pursuit of sharpening my skills, from coding to problem-solving,<br>
+      to create solutions that make a difference<br><br>
+      Click On the image below
+    </div>
+  </div>
+  <div class="flip-card">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img src="image/skills.webp" alt="Compétences" class="skills-image">
+      </div>
+      <div class="flip-card-back">
+        <h2>Front-End</h2>
+        <div class="logos">
+          <img src="image/html.png" class="logo">
+          <img src="image/css.png" class="logo">
+          <img src="image/bootstrap.png" class="logo">
+          <img src="image/js.png" class="logo">
+        </div>
+        <h2>Back-End</h2>
+        <div class="logos">
+          <img src="image/python.jpg" class="logo">
+          <img src="image/java.png" class="logo">
+          <img src="image/php.png" class="logo">
+          <img src="image/sql.webp" class="logo">
+        </div>
+        <h2>Others</h2>
+        <div class="logos">
+          <img src="image/figma.png" class="logo">
+          <img src="image/vscode.jpeg" class="logo">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="portfolio" id="portfolio">
+    <img src="image/mur.avif" class="mur">
+    <div class="mask2"></div>
+    <div class="content-portfolio">
+      <div class="titre1">Portfolio:</div>
+      <p>Welcome to my portfolio let me show you some of my projects</p>
+    </div>
+  </div>
+
+  <div class="projets">
+    <div class="projet">
+      <a href="https://github.com/yanis1211/gsb-visite">
+        <h3>GSB Visite</h3>
+        <img src="image/gsb (2).png" class="projet-image">
+        <p> Développement d’ une l'application web en MVC: HTML,PHP,CSS,SQL</p>
+    </div>
+    </a>
+    <div class="projet">
+      <h3>Stage la maraude Paris</h3>
+      <img src="image/stage.png" class="projet-image">
+      <p>Projet réaliser en front<br>Outils utilisé: Html, CSS, Bootstrap</p>
+    </div>
+    <div class="projet">
+      <h3>Coming</h3>
+      <img src="image/encours.jpg" class="projet-image">
+      <p>En cours</p>
+    </div>
+  </div>
+
+  <div class="Contact" id="contact">
+    <img src="image/contact.jpg" class="debut">
+    <div class="mask2"></div>
+    <div class="contact-content">
+      <div class="titre1">Contactez moi:</div>
+      <p>Email : <a href="mailto:yanischaibi2002@gmail.com">yanischaibi2002@gmail.comp</a></p>
+      <p>Téléphone : +33 7 66 39 16 52</p>
+      <p>
+        <a href="https://www.linkedin.com/in/yanis-chaibi-bb09731b8/" target="_blank">
+          <img src="image/link.webp" alt="LinkedIn" class="social-icon">
+        </a>
+      </p>
+      <p><a href="https://github.com/yanis1211" target="_blank">
+          <img src="image/git.webp" alt="GitHub" class="social-icon">
+        </a></p>
+    </div>
+  </div>
+
+  <footer></footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+</body>
+
+</html>
